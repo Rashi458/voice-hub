@@ -1,0 +1,36 @@
+.splash{
+    height: 100vh;
+}
+.start{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #d38826fd;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+.logo{   
+    width: 200px;
+    height:200px;
+    margin-top: 15%;
+    margin-bottom: 40%;
+    border-radius: 50%;
+    animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes pulse {
+0% {
+    box-shadow: 0 0 0 0 rgb(253, 236, 2);
+}
+80% {
+    box-shadow: 0 0 0 14px rgba(228, 87, 6, 0.863);
+}
+}
